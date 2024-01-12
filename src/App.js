@@ -24,6 +24,7 @@ const App = () => {
 
   return (
     <div className={styles.containerStyles}>
+      <h1 className={styles.title}>Jamming</h1>
       {/* If there is no access token, show the authentication component */}
       {!accessToken ? (
         <SpotifyAuth />
